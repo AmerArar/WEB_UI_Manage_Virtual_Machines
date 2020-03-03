@@ -1,1 +1,27 @@
-<p>main works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Main</title>
+  <script>
+    function gotoPage(s) {
+      location.href = s;
+    }
+  </script>
+</head>
+
+
+<h3>getPosts</h3>
+<div *ngFor="let post of posts">
+  <h3>{{post.title}}</h3>
+  <p>{{post.body}}</p>
+</div>
+<h3>-----</h3>
+
+<body>
+
+</body>
+</html>
+
+
+
